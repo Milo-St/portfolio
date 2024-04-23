@@ -1,0 +1,92 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* ids and classes */
+
+#main-container { 
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    position: absolute;
+    background-color: #333;
+}
+
+
+/* fonts  */
+
+h1{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.3vw;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.72px;
+    display: inline;
+    line-height: normal;
+}
+
+h2{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 450;
+    letter-spacing: 0.72px;
+    display: inline;
+}
+
+h3 {
+    color: #FF1694;
+    font-family: Montserrat;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: 0.2px;
+    display: inline;
+    line-height: normal;
+}
+
+h4 {
+    color: #FF1694;
+    font-family: Montserrat;
+    font-size: 1.9vw;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: 0.2px;
+    display: inline;
+}
+
+h5 {
+    color: #FF1694;
+    font-family: Montserrat;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    display: inline;
+    line-height: normal;
+}
+
+h6{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.3vw;
+    font-style: normal;
+    font-weight: 450;
+    letter-spacing: 0.72px;
+    display: inline;
+}
+
+h7 {
+    color: #FF1694;
+    font-family: Montserrat;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 650;
+    letter-spacing: 0.2px;
+    display: inline;
+}
