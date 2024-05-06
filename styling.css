@@ -92,3 +92,23 @@ h7 {
     letter-spacing: 0.2px;
     display: inline;
 }
+
+h8 {
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.7;
+    display: inline;
+}
+
+h9 {
+    color: #FF1694;
+    font-family: sans-serif;
+    font-size: 3.5vw;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.7;
+    display: inline;
+}

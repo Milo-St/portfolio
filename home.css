@@ -186,10 +186,9 @@
 #testimonials-title {
     margin-bottom: 10px;
     margin: 0 auto;
-    height: 40px;
+    height: 60px;
     width: 60%;
     text-align: center;
-    background-color: #423e3e;
 }
 
 #testimonials-box-container{
@@ -217,16 +216,16 @@
 }
 
 #contact-title {
+    text-align: center;
     height: 50px;
     width: 60%;
-    background-color: #423e3e;
 }
 
 #contact-text {
-    height: 60px;
+    text-align: center;
+    height: 70px;
     width: 60%;
-    margin-top: 10px;
-    background-color: #423e3e;
+    margin-top: 20px;
 }
 
 #contact-form-container{
@@ -261,11 +260,6 @@
     background-color: #212121;
 }
 
-#footer-title {
-    height: 60px;
-    width: 60%;
-    background-color: #423e3e;
-}
 
 #footer-navbar {
     display: flex;
@@ -275,5 +269,20 @@
     height: 60px;
     width: 80%;
     background-color: #423e3e;
+}
+
+#icon-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+    height: 80px;
+    width: 80%;
+}
+
+#copyright {
+    text-align: center;
+    margin-top: 50px;
+    height: 40px;
+    width: 80%;
 }
 
