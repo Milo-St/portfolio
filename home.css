@@ -54,7 +54,7 @@
 }
 
 #about-me-image {
-    height: 600px;
+    height: 70%;
     width: 30%;
     position: relative;
     display: flex;
@@ -65,7 +65,7 @@
 }
 
 #about-me-text {
-    height: 600px;
+    height: 70%;
     width: 40%;
     position: relative;
     display: flex;
@@ -88,15 +88,13 @@
 }
 
 #services-title {
-    height: 40px;
-    width: 50%;
+    text-align: center;
     margin: 0 auto;
-    background-color: #423e3e;
 }
 
 .services-box {
     width: 20%;
-    height: 300px;
+    height: 60%;
     margin: 0 10px; /* Adjust the amount of white space by changing the value */
     max-width: calc(25% - 20px); /* This ensures responsiveness */
     display: flex;
@@ -108,7 +106,7 @@
 
 .services-box-title {
     width: 15%;
-    height: 40px;
+    height: 7%;
     margin-top: 1%;
     position: absolute;
     background-color: #212121;
@@ -116,14 +114,14 @@
 
 .services-box-image {
     width: 25%;
-    height: 100px;
+    height: 40%;
     margin-top: 20%;
     background-color: #212121;
 }
 
 .services-box-text {
     width: 50%;
-    height: 200px;
+    height: 60%;
     margin-top: 20%;
     background-color: #212121;
 }
@@ -139,10 +137,8 @@
 }
 
 #projects-title {
+    text-align: center;
     margin: 0 auto;
-    height: 40px;
-    width: 60%;
-    background-color: #423e3e;
 }
 
 #projects-subtitle {
@@ -152,7 +148,6 @@
     width: 60%;
     background-color: #423e3e;
 }
-
 #projects-rows {
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -186,8 +181,6 @@
 #testimonials-title {
     margin-bottom: 10px;
     margin: 0 auto;
-    height: 60px;
-    width: 60%;
     text-align: center;
 }
 
@@ -195,13 +188,12 @@
     display: grid;
     grid-template-columns: repeat(4, auto);
     gap: 10px;
-    align-items: center;
 }
 
 .testimonials-box {
-    margin: 10px auto;
-    height: 300px;
-    width: 80%;
+    margin: 0 auto;
+    height: 2000%;
+    width: 70%;
     border-radius: 5px;
     background-color: #423e3e;
 }
@@ -217,14 +209,11 @@
 
 #contact-title {
     text-align: center;
-    height: 50px;
-    width: 60%;
 }
 
 #contact-text {
     text-align: center;
-    height: 70px;
-    width: 60%;
+    width: 34%;
     margin-top: 20px;
 }
 
