@@ -8,7 +8,7 @@
     background-image: url(images/intro-background.png);
 }
 
-/* Navbar stuffs */
+/*   stuffs */
 #navbar-container {
     height: 7%; /* Adjusted height */
     width: 90%;
@@ -251,6 +251,7 @@
 
 
 #footer-navbar {
+    margin-top: 3%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
