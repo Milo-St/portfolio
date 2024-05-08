@@ -199,7 +199,7 @@
 }
 
 #contact-container{
-    height: 750px;
+    height: 15%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -218,7 +218,7 @@
 }
 
 #contact-form-container{
-    height: 750px;
+    height: 95%;
     width: 100%;
     background-color: #212121;
     display: flex;
@@ -241,7 +241,7 @@
 }
 
 #footer-container {
-    height: 400px;
+    height: 5%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -255,7 +255,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 15%;
+    height: 25%;
     width: 80%;
     background-color: #423e3e;
 }
