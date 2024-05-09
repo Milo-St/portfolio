@@ -121,8 +121,26 @@
                 <h7>P</h7><h6>lease leave a message here with your email adress, I'll respond to you as soon as I receive your message</h6>
             </div>
             <div id="contact-form-container">
-                <div id="email-submit"></div>
-                <div id="message-submit"></div>
+                <form action="action_page.php">
+
+                    <label for="email"><h5>E</h5><h1>-mail:</h1></label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your E-mail adress..">
+                
+                    <label for="name"><h5>N</h5><h1>ame:</h1></label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your name..">
+                
+                    <label for="language"><h5>L</h5><h1>anguage:</h1></label>
+                    <select id="language" name="language">
+                      <option value="English">English</option>
+                      <option value="Dutch">Dutch</option>
+                    </select>
+                
+                    <label for="subject"><h5>S</h5><h1>ubject:</h1></label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                
+                  </form>
             </div>
         </div>
 
