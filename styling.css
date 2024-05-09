@@ -16,6 +16,11 @@ html, body {
     overflow: auto;
 }
 
+.responsive-image {
+    width: 100%;
+    height: auto;
+}
+
 
 
 /* fonts  */
@@ -112,3 +117,4 @@ h9 {
     letter-spacing: 0.7;
     display: inline;
 }
+

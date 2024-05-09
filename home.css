@@ -8,7 +8,7 @@
     background-image: url(images/intro-background.png);
 }
 
-/*   stuffs */
+/*  navbar stuffs */
 #navbar-container {
     height: 7%; /* Adjusted height */
     width: 90%;
@@ -26,13 +26,14 @@
 }
 
 .navbar-button {
-    height: 90%; /* Adjusted height */
-    width: 10%;
+    height: 80%; /* Adjusted height */
+    width: 11%;
     margin-top: .2%;
     margin-right: 1%;
-    border-radius: 3px;
     text-align: center;
     background-color: #212121;
+    border: none;
+    border-radius: 3px;
 }
 
 #home-intro {
@@ -171,6 +172,8 @@
     text-align: center;
 }
 
+
+/* the things for the testimonials part */
 #testimonials-container {
     height: 500px;
     width: 100%;
@@ -198,6 +201,7 @@
     background-color: #423e3e;
 }
 
+/* contact part stuff */
 #contact-container{
     height: 15%;
     width: 100%;
@@ -240,6 +244,7 @@
     background-color: #423e3e;
 }
 
+/* footer thingies */
 #footer-container {
     height: 5%;
     width: 100%;
