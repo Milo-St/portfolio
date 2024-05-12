@@ -56,25 +56,23 @@
 
 #about-me-image {
     height: 70%;
-    width: 30%;
+    width: 33%;
     position: relative;
     display: flex;
     align-self: flex-start;
     margin-left: 5%;
     margin-top: 6%;
-    background-color: #423e3e;
 }
 
 #about-me-text {
     height: 70%;
     width: 40%;
     position: relative;
-    display: flex;
+    text-align: center;
     align-self: flex-end;
     margin-bottom: 8%;
     margin-left: 20%;
-    background-color: #423e3e;
-}
+    }
 
 /* wow, there's stuff for the services page from this point !!! */
 #services-container {
@@ -106,25 +104,31 @@
 }
 
 .services-box-title {
-    width: 15%;
+    text-align: center;
+    width: 10%;
     height: 7%;
     margin-top: 1%;
     position: absolute;
-    background-color: #212121;
+    border-radius: 5px;
+    background-color: #2b2929;
 }
 
 .services-box-image {
+    display: flex;
+    align-items: center;
     width: 25%;
     height: 40%;
     margin-top: 20%;
-    background-color: #212121;
+    margin-left: 2%;
 }
 
 .services-box-text {
+    border-radius: 5px;
+    text-align: center;
     width: 50%;
-    height: 60%;
+    height: 0%;
     margin-top: 20%;
-    background-color: #212121;
+    background-color: #2b2929;
 }
 
 /* projects stuffs from here on */
