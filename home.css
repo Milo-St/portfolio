@@ -151,24 +151,61 @@
     margin-bottom: 30px;
     height: 40px;
     width: 60%;
-    background-color: #423e3e;
+    text-align: center;
 }
+
 #projects-rows {
     display: grid;
     grid-template-columns: repeat(3, auto);
     gap: 10px;
     align-items: center;
+    margin-top: 1%;
 }
 
-.projects-buttons {
-    margin: 0 auto;
+#project-button-rows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#current-project {
+    border-radius: 5px;
+    margin: 0 20px; /* Adjust the margin as needed */
     height: 40px;
+    width: 12%;
+    background-color: #423e3e;
+    text-align: center;
+}
+
+.projects-button {
+    border: none;
+    margin: 0 20px; /* Adjust the margin as needed */
+    height: 40px;
+    width: 3%;
+    text-align: center;
+    align-content: center;
+    background-color: transparent;
+}
+
+
+#projects-image1 {
+    margin: 0 auto;
+    height: 500px;
     width: 80%;
     background-color: #423e3e;
     text-align: center;
 }
 
-.projects-images {
+#projects-image2 {
+    margin: 0 auto;
+    height: 500px;
+    width: 80%;
+    background-color: #423e3e;
+    text-align: center;
+}
+
+#projects-image3 {
     margin: 0 auto;
     height: 500px;
     width: 80%;
