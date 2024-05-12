@@ -40,6 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt->close();
         $conn->close();
         echo "Data Inserted Successfully";
+        header('Location: portfolio.html');
     } else {
         echo "Invalid data";
     }
